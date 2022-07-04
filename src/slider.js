@@ -73,9 +73,6 @@ class Slider extends React.Component{
                     <h1 style={{ fontSize: "70px", textAlign: "center", marginBottom:"50px" }}>Trusted By</h1>
                     
                 </Container>
-                {/* <div className="container" style={{maxWidth:"700px",maxHeight:"600px"}}>
-                    <UncontrolledCarousel items={items}/>
-                </div> */}
                 <div className="slider">
                     <div className="slide-track">
                         <div className="slide">

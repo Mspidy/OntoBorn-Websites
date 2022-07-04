@@ -5,27 +5,6 @@ class Appps extends React.Component {
     render() {
         return (
             <>
-                {/* <div className="btn-group">
-                    <button type="button" className="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{ marginRight: "50px" }}>Primary</button>
-                    <div className="dropdown-menu">
-                        <a className="dropdown-item" href="#">Action</a>
-                        <a className="dropdown-item" href="#">Another Action</a>
-                        <a className="dropdown-item" href="#">Something else here</a>
-                        <div className="dropdown-divider"></div>
-                        <a className="dropdown-item" href="#">Seprated link</a>
-                    </div>
-                </div>
-                <div className="dropup">
-                    <button className="btn btn-primary btn-block" type="button" aria-haspopup="true" aria-expanded="false" style={{ marginRight: "50px" }}>CaseStudies</button>
-                    <button className="btn btn-primary btn-block" type="button" aria-haspopup="true" aria-expanded="false" style={{ marginRight: "50px" }}>Reviews</button>
-                    <button className="btn btn-primary btn-block" type="button" aria-haspopup="true" aria-expanded="false" style={{ marginRight: "50px" }}>Portfolio</button>
-                    <button className="btn btn-primary btn-block" type="button" aria-haspopup="true" aria-expanded="false" style={{ marginRight: "50px" }}>Process</button>
-                    <button className="btn btn-primary btn-block" type="button" aria-haspopup="true" aria-expanded="false" style={{ marginRight: "50px" }}>Pricing</button>
-                    <button className="btn btn-primary btn-block" type="button" aria-haspopup="true" aria-expanded="false" style={{ marginRight: "50px" }}>Blog</button>
-
-                    <button className="btn btn-outline-success">Book a meeting</button>
-                    <button className="btn btn-outline-info">Request a free quote</button>
-                </div> */}
                 <nav className="navbar navbar-expand-lg navbar-light" style={{marginLeft:"-90px",marginRight:"-185px",overflow:"hidden"}}>
                     <div className="container-fluid">
                         <img src={require('./ontoborn.png')} />
@@ -65,10 +44,8 @@ class Appps extends React.Component {
                                     <a className="nav-link" href="#">Blog</a>
                                 </li>
                             </ul>
-
                             <button className="btn btn-outline-success" style={{ fontSize: "10px", padding: "10px" }}>Book a meeting</button>
                             <button className="btn btn-outline-info" style={{ fontSize: "10px", padding: "10px" }}>Request a free quote</button>
-
                         </div>
                     </div>
                 </nav>

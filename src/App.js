@@ -4,6 +4,7 @@ import './App.css';
 import Choose from './ChooseUS';
 import Testimonials from './coursel';
 import Details from './details';
+import Foot from './Footer';
 import Navbars from './header';
 import Appps from './navbar';
 import Slider from './slider';
@@ -19,6 +20,7 @@ function App() {
       <Details />
       <Testimonials />
       <Choose/>
+      <Foot/>
     </div>
   );
 }
